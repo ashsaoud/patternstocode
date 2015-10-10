@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83B40B171BC7BC8D008DD7B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B40B161BC7BC8D008DD7B2 /* AppDelegate.swift */; };
+		83B40B1E1BC7BC8D008DD7B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83B40B1C1BC7BC8D008DD7B2 /* Main.storyboard */; };
+		83B40B201BC7BC8D008DD7B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83B40B1F1BC7BC8D008DD7B2 /* Assets.xcassets */; };
+		83B40B231BC7BC8D008DD7B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83B40B211BC7BC8D008DD7B2 /* LaunchScreen.storyboard */; };
+		83B40B2D1BC7BD1B008DD7B2 /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B40B2C1BC7BD1B008DD7B2 /* TimelineViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		83B40B2F1BC7BD2F008DD7B2 /* TimelineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B40B2E1BC7BD2F008DD7B2 /* TimelineTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		83B40B311BC7BD3C008DD7B2 /* TimelineEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B40B301BC7BD3C008DD7B2 /* TimelineEvent.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		83B40B131BC7BC8D008DD7B2 /* PeriscopeTimeline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeriscopeTimeline.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83B40B161BC7BC8D008DD7B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83B40B1D1BC7BC8D008DD7B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83B40B1F1BC7BC8D008DD7B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83B40B221BC7BC8D008DD7B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83B40B241BC7BC8D008DD7B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83B40B2C1BC7BD1B008DD7B2 /* TimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
+		83B40B2E1BC7BD2F008DD7B2 /* TimelineTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineTableViewCell.swift; sourceTree = "<group>"; };
+		83B40B301BC7BD3C008DD7B2 /* TimelineEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineEvent.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83B40B101BC7BC8D008DD7B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83B40B0A1BC7BC8D008DD7B2 = {
+			isa = PBXGroup;
+			children = (
+				83B40B151BC7BC8D008DD7B2 /* PeriscopeTimeline */,
+				83B40B141BC7BC8D008DD7B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83B40B141BC7BC8D008DD7B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83B40B131BC7BC8D008DD7B2 /* PeriscopeTimeline.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83B40B151BC7BC8D008DD7B2 /* PeriscopeTimeline */ = {
+			isa = PBXGroup;
+			children = (
+				83B40B2B1BC7BCA9008DD7B2 /* Models */,
+				83B40B2A1BC7BCA0008DD7B2 /* ViewControllers */,
+				83B40B161BC7BC8D008DD7B2 /* AppDelegate.swift */,
+				83B40B1C1BC7BC8D008DD7B2 /* Main.storyboard */,
+				83B40B1F1BC7BC8D008DD7B2 /* Assets.xcassets */,
+				83B40B211BC7BC8D008DD7B2 /* LaunchScreen.storyboard */,
+				83B40B241BC7BC8D008DD7B2 /* Info.plist */,
+			);
+			path = PeriscopeTimeline;
+			sourceTree = "<group>";
+		};
+		83B40B2A1BC7BCA0008DD7B2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				83B40B2C1BC7BD1B008DD7B2 /* TimelineViewController.swift */,
+				83B40B2E1BC7BD2F008DD7B2 /* TimelineTableViewCell.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		83B40B2B1BC7BCA9008DD7B2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				83B40B301BC7BD3C008DD7B2 /* TimelineEvent.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83B40B121BC7BC8D008DD7B2 /* PeriscopeTimeline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83B40B271BC7BC8D008DD7B2 /* Build configuration list for PBXNativeTarget "PeriscopeTimeline" */;
+			buildPhases = (
+				83B40B0F1BC7BC8D008DD7B2 /* Sources */,
+				83B40B101BC7BC8D008DD7B2 /* Frameworks */,
+				83B40B111BC7BC8D008DD7B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PeriscopeTimeline;
+			productName = PeriscopeTimeline;
+			productReference = 83B40B131BC7BC8D008DD7B2 /* PeriscopeTimeline.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83B40B0B1BC7BC8D008DD7B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Christopher Pilcher";
+				TargetAttributes = {
+					83B40B121BC7BC8D008DD7B2 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 83B40B0E1BC7BC8D008DD7B2 /* Build configuration list for PBXProject "PeriscopeTimeline" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83B40B0A1BC7BC8D008DD7B2;
+			productRefGroup = 83B40B141BC7BC8D008DD7B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83B40B121BC7BC8D008DD7B2 /* PeriscopeTimeline */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83B40B111BC7BC8D008DD7B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83B40B231BC7BC8D008DD7B2 /* LaunchScreen.storyboard in Resources */,
+				83B40B201BC7BC8D008DD7B2 /* Assets.xcassets in Resources */,
+				83B40B1E1BC7BC8D008DD7B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83B40B0F1BC7BC8D008DD7B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83B40B171BC7BC8D008DD7B2 /* AppDelegate.swift in Sources */,
+				83B40B2F1BC7BD2F008DD7B2 /* TimelineTableViewCell.swift in Sources */,
+				83B40B2D1BC7BD1B008DD7B2 /* TimelineViewController.swift in Sources */,
+				83B40B311BC7BD3C008DD7B2 /* TimelineEvent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		83B40B1C1BC7BC8D008DD7B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83B40B1D1BC7BC8D008DD7B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83B40B211BC7BC8D008DD7B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83B40B221BC7BC8D008DD7B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83B40B251BC7BC8D008DD7B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		83B40B261BC7BC8D008DD7B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83B40B281BC7BC8D008DD7B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PeriscopeTimeline/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chrispilcher.PeriscopeTimeline;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		83B40B291BC7BC8D008DD7B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PeriscopeTimeline/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chrispilcher.PeriscopeTimeline;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83B40B0E1BC7BC8D008DD7B2 /* Build configuration list for PBXProject "PeriscopeTimeline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83B40B251BC7BC8D008DD7B2 /* Debug */,
+				83B40B261BC7BC8D008DD7B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83B40B271BC7BC8D008DD7B2 /* Build configuration list for PBXNativeTarget "PeriscopeTimeline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83B40B281BC7BC8D008DD7B2 /* Debug */,
+				83B40B291BC7BC8D008DD7B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83B40B0B1BC7BC8D008DD7B2 /* Project object */;
+}
